@@ -12,7 +12,7 @@ variables:
   functionAppName: 'smagribot-grafana-helper'
 
   # Agent VM image name
-  vmImageName: 'vs2017-win2016'
+  vmImageName: 'ubuntu-latest'
 
   # Working Directory
   workingDirectory: '$(System.DefaultWorkingDirectory)/grafana-helper-function'
